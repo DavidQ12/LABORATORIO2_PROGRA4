@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  div, input {
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  div:hover, input:hover {
+    background-color: #2980b9;
+    color: #fff;
+  }
+  
+  #hiddenText {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    display: none;
+    border-radius: 8px;
+  }
+  
+  #focusExample:focus {
+    border: 2px solid #27ae60;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
